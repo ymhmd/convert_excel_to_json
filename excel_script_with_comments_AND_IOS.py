@@ -3,6 +3,8 @@ import codecs
 import sys
 from xlrd import open_workbook
 
+
+
 if (len(sys.argv)>=3):
 	platform=str(sys.argv[1])
 	excel_file=str(sys.argv[2])
